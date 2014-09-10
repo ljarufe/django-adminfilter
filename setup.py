@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-adminfilters',
-    version='.'.join(map(str, __import__('adminfilter').__version__)),
+    version='1.0'
     author='Django',
     url='https://github.com/ljarufe/django-adminfilter',
     description='Django Admin Filters',
